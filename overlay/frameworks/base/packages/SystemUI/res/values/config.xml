@@ -34,5 +34,5 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
     <bool name="doze_display_state_supported">true</bool>
 
     <!-- The radius of the enrollment progress bar, in dp -->
-    <integer name="config_udfpsEnrollProgressBar">144</integer>
+    <integer name="config_udfpsEnrollProgressBar">65</integer>
 </resources>
