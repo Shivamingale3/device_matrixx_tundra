@@ -12,12 +12,12 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/motorola/tundra/device.mk)
 
 # Inherit common Matrixx configurations
-$(call inherit-product, vendor/matrixx/config/common_full_phone.mk)
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Quick Tap
 TARGET_SUPPORTS_QUICK_TAP := true
 
-PRODUCT_NAME := matrixx_tundra
+PRODUCT_NAME := lineage_tundra
 PRODUCT_DEVICE := tundra
 PRODUCT_MANUFACTURER := motorola
 PRODUCT_BRAND := motorola
