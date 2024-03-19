@@ -432,6 +432,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.touchscreen.multitouch.jazzhand.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.touchscreen.multitouch.jazzhand.xml
 
+# Remove unwanted GAPPS packages 
+PRODUCT_PACKAGES += \
+    RemovePackages
+
 # Thermal
 PRODUCT_PACKAGES += \
     android.hardware.thermal@2.0-service.qti
