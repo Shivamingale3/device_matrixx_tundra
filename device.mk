@@ -207,6 +207,7 @@ PRODUCT_PACKAGES += \
     gnss_antenna_info.conf \
     gps.conf \
     izat.conf \
+    lowi.conf \
     sap.conf
 
 PRODUCT_PACKAGES += \
